@@ -53,7 +53,7 @@ class Dashboard extends Component {
     return (
       <div>
         <Display balls={this.state.balls} strikes={this.state.strikes} />
-        <button onClick={this.strike}>Strikes</button>
+        <button onClick={this.strike}>Strike</button>
         <button onClick={this.ball}>Ball</button>
         <button onClick={this.foul}>Foul</button>
         <button onClick={this.hit}>Hit</button>
